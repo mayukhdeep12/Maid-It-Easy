@@ -1,1 +1,1 @@
-# Maid-It-Easy
+# maid-it-easy

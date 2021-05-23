@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashback"
+    tools:context=".dashboard">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="327dp"
+                android:layout_height="44dp"
+                android:layout_margin="40dp"
+                android:background="@drawable/edit_background"
+                android:drawableLeft="@drawable/ic_baseline_search_24"
+                android:drawablePadding="10dp"
+                android:hint="Search"
+                android:paddingLeft="10dp"
+                android:textColorHint="#259FF0"
+                android:textColor="#ffffff"/>
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="375dp"
+                android:layout_height="162dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/i1"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="377dp"
+                android:layout_height="162dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/i2"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="375dp"
+                android:layout_height="162dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/i3"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="375dp"
+                android:layout_height="162dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/i4"
+                android:layout_marginLeft="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
